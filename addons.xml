@@ -132,7 +132,7 @@ v0.5.9 (2022-03-22)
   </extension>
 </addon>
 
-<addon id="plugin.video.tvone11" name="tvOne11" version="27+matrix.1" provider-name="RACC">
+<addon id="plugin.video.tvone11" name="tvOne11" version="28.0.0" provider-name="RACC">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -145,72 +145,73 @@ v0.5.9 (2022-03-22)
   </extension>
   <extension point="xbmc.addon.metadata">
     <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">tvOne11</summary>
-    <description lang="en_gb">tvOne11</description>
+    <summary lang="en_gb">Swift Streamz</summary>
+    <description lang="en_gb">tvOne11 aka Swift Streamz[CR]Version updated August 2023</description>
     <disclaimer lang="en_gb"/>
     <platform>all</platform>
     <license>GPL-3.0</license>
-	<assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-    
-<addon id="plugin.video.tvone111" name="tvOne111" version="24+matrix.1" provider-name="RACC">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.pycryptodome"/>
-    <import addon="script.module.pyamf"/>
-    <import addon="script.module.kodi-six"/>
-    <import addon="script.module.future"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.routing"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">tvOne111</summary>
-    <description lang="en_gb">tvOne111</description>
-    <disclaimer lang="en_gb"/>
-    <platform>all</platform>
-    <license>GPL-3.0-only</license>
     <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-    
-<addon id="plugin.video.tvone112" name="tvOne112" version="3+matrix.1" provider-name="RACC">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.pycryptodome"/>
-    <import addon="script.module.pyamf"/>
-    <import addon="script.module.kodi-six"/>
-    <import addon="script.module.future"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.routing"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">tvOne112</summary>
-    <description lang="en_gb">tvOne112</description>
-    <disclaimer lang="en_gb"/>
-    <platform>all</platform>
-    <license>GPL-3.0-only</license>
-    <assets>
-        <icon>icon.png</icon>
     </assets>  
   </extension>
 </addon>
     
-<addon id="plugin.video.tvone1112" name="tvOne1112" version="111+matrix.1" provider-name="RACC">
+<addon id="plugin.video.tvone111" name="tvOne111" version="24.0.1" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.pycryptodome"/>
+    <import addon="script.module.pyamf"/>
+    <import addon="script.module.kodi-six"/>
+    <import addon="script.module.future"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.routing"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">RedBox TV</summary>
+    <description lang="en_gb">tvOne111 aka RedBox TV Live[CR]Updated 2021</description>
+    <disclaimer lang="en_gb"/>
+    <platform>all</platform>
+    <license>GPL-3.0-only</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+    
+<addon id="plugin.video.tvone112" name="tvOne112" version="3.0.1" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.pycryptodome"/>
+    <import addon="script.module.pyamf"/>
+    <import addon="script.module.kodi-six"/>
+    <import addon="script.module.future"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.routing"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">RStv</summary>
+    <description lang="en_gb">tvOne112 aka RStv[CR]Updated July 2023</description>
+    <disclaimer lang="en_gb"/>
+    <platform>all</platform>
+    <license>GPL-3.0-only</license>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>  
+    </assets>
+  </extension>
+</addon>
+    
+<addon id="plugin.video.tvone1112" name="tvOne1112" version="111.0.1" provider-name="RACC">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.pycryptodome"/>
@@ -226,8 +227,8 @@ v0.5.9 (2022-03-22)
   </extension>
   <extension point="xbmc.addon.metadata">
     <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">tvOne1112</summary>
-    <description lang="en_gb">tvOne1112</description>
+    <summary lang="en_gb">LiveNet TV</summary>
+    <description lang="en_gb">tvOne1112 aka LiveNet TV[CR]Updated 2021</description>
     <disclaimer lang="en_gb"/>
     <language/>
     <platform>all</platform>
