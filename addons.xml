@@ -340,7 +340,7 @@ v0.5.9 (2022-03-22)
     </extension>
 </addon>
     
-<addon id="plugin.video.daddylive" name="DaddyLive" version="3.0.1" provider-name="dEXE, THE CREW, mbebe">
+<addon id="plugin.video.daddylive" name="DaddyLive" version="3.0.2" provider-name="dEXE, THE CREW, mbebe">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
@@ -352,7 +352,7 @@ v0.5.9 (2022-03-22)
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">DaddyLiveHD - Live TV and Sports</summary>
-        <description lang="en">Live Streamed Channels and Scheduled Sporting Events.[CR][CR]Multiple sources/streams works.</description>
+        <description lang="en">Live Streamed Channels and Scheduled Sporting Events.[CR][CR]Multiple sources/streams works in Matrix, Nexus and Omega.</description>
         <disclaimer lang="en">daddylivehd.com</disclaimer>
         <language>en</language>
         <platform>all</platform>
