@@ -131,32 +131,7 @@ v0.5.9 (2022-03-22)
   </extension>
 </addon>
 
-<addon id="plugin.video.tvone11" name="tvOne11" version="28.0.0" provider-name="RACC">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.kodi-six"/>
-    <import addon="script.module.future"/>
-    <import addon="script.module.routing"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">Swift Streamz</summary>
-    <description lang="en_gb">tvOne11 aka Swift Streamz[CR]Version updated August 2023</description>
-    <disclaimer lang="en_gb"/>
-    <platform>all</platform>
-    <license>GPL-3.0</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>  
-  </extension>
-</addon>
-    
-<addon id="plugin.video.tvone111" name="tvOne111" version="24.0.2" provider-name="RACC">
+<addon id="plugin.video.tvone111" name="tvOne111" version="25.0.0" provider-name="RACC">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.pycryptodome"/>
@@ -172,7 +147,7 @@ v0.5.9 (2022-03-22)
   <extension point="xbmc.addon.metadata">
     <reuselanguageinvoker>true</reuselanguageinvoker>
     <summary lang="en_gb">RedBox TV</summary>
-    <description lang="en_gb">tvOne111 aka RedBox TV Live[CR]Updated 2021</description>
+    <description lang="en_gb">tvOne111 aka RedBox TV Live[CR]Updated 2024</description>
     <disclaimer lang="en_gb"/>
     <platform>all</platform>
     <license>GPL-3.0-only</license>
@@ -182,6 +157,7 @@ v0.5.9 (2022-03-22)
     </assets>
   </extension>
 </addon>
+
     
 <addon id="plugin.video.tvone112" name="tvOne112" version="3.0.1" provider-name="RACC">
   <requires>
