@@ -105,7 +105,7 @@ v0.5.9 (2022-03-22)
   </extension>
 </addon>
     
-<addon id="script.module.jetextractors" name="JetExtractors" version="2.0.90" provider-name="THE TEAM">
+<addon id="script.module.jetextractors" name="JetExtractors" version="2.0.92" provider-name="THE TEAM">
 	<requires>
 		<import addon="script.module.requests" />
 		<import addon="script.module.beautifulsoup4" />
