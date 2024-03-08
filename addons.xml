@@ -44,35 +44,6 @@
 	</extension>
 </addon>
     
-<addon id="plugin.video.iptvmonster" name="IPTV Monster" version="1.0.0" provider-name="G-Man">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.routing"/>
-    <import addon="script.module.unidecode" />
-    <import addon="script.module.tzlocal" />
-    <import addon="script.module.jetextractors" />
-    <import addon="script.module.inputstreamhelper" />
-    <import addon="script.module.resolveurl"/>
-    <import addon="script.module.pyamf" />
-    <import addon="script.module.pycryptodome" optional="true" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">A slew of IPTV content</summary>
-    <description lang="en">From live channels to sports this add-on is packed with IPTV sources![CR]Credits to:[CR]The Micro Jen team for the add-on template[CR]Slyguy and other devs for publically providing IPTV links used in pulling this add-on together.[CR]The JetExtractors Team for their awesome source module.[CR]All I did was type out a ton of URLs. lol</description>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GPL-2.0-or-later</license>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-  </assets>
-  </extension>
-</addon>
-    
 <addon id="script.module.inputstreamhelper" name="InputStream Helper" version="999.6.1+matrix.1" provider-name="emilsvennesson, dagwieers, mediaminister, horstle">
   <requires>
     <!--py3 compliant-->
@@ -134,7 +105,7 @@ v0.5.9 (2022-03-22)
   </extension>
 </addon>
     
-<addon id="script.module.jetextractors" name="JetExtractors" version="2.0.93" provider-name="THE TEAM">
+<addon id="script.module.jetextractors" name="JetExtractors" version="2.0.93.1" provider-name="THE TEAM">
 	<requires>
 		<import addon="script.module.requests" />
 		<import addon="script.module.beautifulsoup4" />
